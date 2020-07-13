@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene">
+      <UniqueIdentifier>{31c65c75-1279-434c-bd14-61d596227063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene\00.Logo">
+      <UniqueIdentifier>{5a6c28a4-1c43-4d38-b728-ea82371a631f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene\01.Stage">
+      <UniqueIdentifier>{11597b59-6dcf-4b4a-9fea-402c1a21da3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene\99.Loading">
+      <UniqueIdentifier>{29daaf30-c84f-4b23-87de-025b55fa8d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.MainApp">
+      <UniqueIdentifier>{bb825a47-61b3-4626-b77d-7ca8a3be59e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object">
+      <UniqueIdentifier>{393cd038-380f-490f-b844-7496595fbabd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\00.Logo">
+      <UniqueIdentifier>{27d1f6ba-ed80-40dd-94a5-a8c52e793aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage">
+      <UniqueIdentifier>{22e48558-8c5e-4316-a32c-71b9a420db10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\99.Camera">
+      <UniqueIdentifier>{f3aa0446-4972-4ccb-9532-1126c227ab14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\01.LandObject">
+      <UniqueIdentifier>{72ca61bb-c0f7-4cca-bf02-0f6c1b845eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\01.LandObject\03.Stone">
+      <UniqueIdentifier>{0a16ad89-eb14-44d8-8b2e-de6cc5df75fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.UI">
+      <UniqueIdentifier>{245f76ed-4cf9-4ab4-960a-18c21f6bbdba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\05.SkyBox">
+      <UniqueIdentifier>{2a1ce7cb-83cd-4729-87db-6d6cd3a92351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99.Default">
+      <UniqueIdentifier>{dd9fc3d4-f666-4522-b75f-6e5df2cb432a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Include">
+      <UniqueIdentifier>{55366a99-e60a-40f7-9368-c3c5a564a1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\01.LandObject\00.Arisha">
+      <UniqueIdentifier>{ac5f3ec5-ef51-4ebd-941c-e35083d64254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\01.LandObject\00.Arisha\Sword">
+      <UniqueIdentifier>{2a1fa0f7-ce14-431e-853f-c4eb44558ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\01.LandObject\00.Arisha\ArishaSphere">
+      <UniqueIdentifier>{0f3705ad-a63a-4306-84c9-5d21d83bdd67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\01.LandObject\02.Cromcruach">
+      <UniqueIdentifier>{b33d03a8-66e5-4ee6-943a-0d47cde2cb65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\01.LandObject\02.Cromcruach\Staff">
+      <UniqueIdentifier>{f01f3617-0a0e-46eb-9ffc-50355bdc5a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect">
+      <UniqueIdentifier>{66d43e60-f2d0-4af7-a076-2f7f424c48a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\01.LandObject\02.Cromcruach\CromcruachSphere">
+      <UniqueIdentifier>{c23408b6-dde8-4a59-a17d-0c3b89477ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\99.Camera\Dynamic">
+      <UniqueIdentifier>{2cefc848-8c00-46e7-8834-06230ff3a212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\99.Camera\Static">
+      <UniqueIdentifier>{7656b4ae-c59e-4af9-a20b-13fa2d7d45c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\HitEffect">
+      <UniqueIdentifier>{2ea39c85-eee7-4fa7-a9aa-47c37d118f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\Explosion">
+      <UniqueIdentifier>{eec745e1-29f3-4d40-824a-c9496ac0ee3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\RuinEffect">
+      <UniqueIdentifier>{b641ae06-883e-445d-890c-d260d6511386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\SmashEffect">
+      <UniqueIdentifier>{9f22cf5c-0eb7-4cac-80fb-49cba6fda3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\PunchEffect">
+      <UniqueIdentifier>{2285803c-b88b-4ce9-9fdc-98893294bd66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\ManaRegionEffect">
+      <UniqueIdentifier>{84e3cbc4-d6f5-4c38-8b42-457307ad9053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\LightningEffect">
+      <UniqueIdentifier>{c69a50ff-1316-46ec-8184-94f169457b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\ResonanceEffect">
+      <UniqueIdentifier>{0f0cd240-aa8a-458c-8530-aab6f96dbb22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\ResonanceEffect\SubEffect">
+      <UniqueIdentifier>{1c9dc0ab-c693-4844-8819-ea4c129eef4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\ResonanceEffect\BoomEffect">
+      <UniqueIdentifier>{28138d99-3a42-4e96-8a82-c45f359215d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\01.LandObject\00.Arisha\HitBox">
+      <UniqueIdentifier>{ed316013-add8-4165-8e98-820e53f10dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\01.LandObject\02.Cromcruach\HitBox">
+      <UniqueIdentifier>{3cf083c5-2503-4aef-93be-816d235f4b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.UI\Observer">
+      <UniqueIdentifier>{3a91d6c2-e1c7-44b5-92c9-5281301cd2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.UI\HpBar">
+      <UniqueIdentifier>{8e7b84f3-9523-43c0-920d-e36240c3fd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.UI\HpBar\PlayerHpBar">
+      <UniqueIdentifier>{d133ba50-db08-4b77-b80c-e9d37016b5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.UI\HpBar\MonsterHpBar">
+      <UniqueIdentifier>{a1044df5-8af6-4b32-90a1-44a33e6943b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.UI\DamageFont">
+      <UniqueIdentifier>{af009131-db80-4391-abee-2dd63e8816f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.UI\DamageScreen">
+      <UniqueIdentifier>{5e3759a5-a23e-4a46-b17d-9a74d6ad899b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.SoundMgr">
+      <UniqueIdentifier>{957a98c9-2d84-4ea4-9ff7-6cdb9f2fee24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.UI\SkillIcon">
+      <UniqueIdentifier>{d6b3e244-5112-4522-98ed-76f45a54f3d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\RordOfMana">
+      <UniqueIdentifier>{b9595edf-58c8-49f7-95f0-79c9ce730770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\RordOfMana\ManaHandEffect">
+      <UniqueIdentifier>{3f56a91e-9a7f-4360-9b8f-890ba98b9eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\RordOfMana\ManaMagicEffect">
+      <UniqueIdentifier>{e984e95c-2d9e-4e09-8c07-a0f0fb355784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\RordOfMana\ManaHandEffect2">
+      <UniqueIdentifier>{e943897a-b3c9-43d1-8368-15976d0ad251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.Effect\RordOfMana\ManaBoomEffect">
+      <UniqueIdentifier>{dad77b50-fc9f-4ec5-9305-c2fd8265d5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\04.UI\EndUI">
+      <UniqueIdentifier>{e9c47256-466e-48f8-b865-ad211d59bd1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\SceneSelector.h">
+      <Filter>소스 파일\01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Logo.h">
+      <Filter>소스 파일\01.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Stage.h">
+      <Filter>소스 파일\01.Scene\01.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Loading.h">
+      <Filter>소스 파일\01.Scene\99.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MainApp.h">
+      <Filter>소스 파일\00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LogoBack.h">
+      <Filter>소스 파일\02.Object\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LandObject.h">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Stone.h">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\03.Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SkyBox.h">
+      <Filter>소스 파일\02.Object\01.Stage\05.SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Include.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Enum.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Value.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Arisha.h">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\00.Arisha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cromcruach.h">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\02.Cromcruach</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Sword.h">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\00.Arisha\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ArishaSphere.h">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\00.Arisha\ArishaSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Staff.h">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\02.Cromcruach\Staff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Struct.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CromcruachSphere.h">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\02.Cromcruach\CromcruachSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DynamicCamera.h">
+      <Filter>소스 파일\02.Object\01.Stage\99.Camera\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StaticCamera.h">
+      <Filter>소스 파일\02.Object\01.Stage\99.Camera\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\HitEffect.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\HitEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ExplosionEffect.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SmashEffect.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\SmashEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RuinEffect.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\RuinEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PunchEffect.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\PunchEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ManaRegionEffect.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\ManaRegionEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LightningEffect.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\LightningEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ResonanceEffect.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\ResonanceEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ResonanceSubEffect.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\ResonanceEffect\SubEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ResonanceBoomEffect.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\ResonanceEffect\BoomEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ArishaHitBox.h">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\00.Arisha\HitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CromcruachHitBox.h">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\02.Cromcruach\HitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PlayerHpBar.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\HpBar\PlayerHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UIObserver.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MonsterHpBar.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\HpBar\MonsterHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DamageFont.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\DamageFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DamageScreen.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\DamageScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SoundMgr.h">
+      <Filter>소스 파일\98.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Functor.h">
+      <Filter>소스 파일\98.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SkillIcon.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\SkillIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ManaHandEffect.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\RordOfMana\ManaHandEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ManaMagicEffect.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\RordOfMana\ManaMagicEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ManaHandEffect2.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\RordOfMana\ManaHandEffect2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ManaBoomEffect.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\RordOfMana\ManaBoomEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\EndUI.h">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\EndUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\Logo.cpp">
+      <Filter>소스 파일\01.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage.cpp">
+      <Filter>소스 파일\01.Scene\01.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Loading.cpp">
+      <Filter>소스 파일\01.Scene\99.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>소스 파일\00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LogoBack.cpp">
+      <Filter>소스 파일\02.Object\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LandObject.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stone.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\03.Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkyBox.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\05.SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Arisha.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\00.Arisha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cromcruach.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\02.Cromcruach</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Sword.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\00.Arisha\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ArishaSphere.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\00.Arisha\ArishaSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Staff.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\02.Cromcruach\Staff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CromcruachSphere.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\02.Cromcruach\CromcruachSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DynamicCamera.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\99.Camera\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticCamera.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\99.Camera\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HitEffect.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\HitEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ExplosionEffect.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SmashEffect.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\SmashEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RuinEffect.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\RuinEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PunchEffect.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\PunchEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ManaRegionEffect.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\ManaRegionEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightningEffect.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\LightningEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ResonanceEffect.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\ResonanceEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ResonanceSubEffect.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\ResonanceEffect\SubEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ResonanceBoomEffect.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\ResonanceEffect\BoomEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ArishaHitBox.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\00.Arisha\HitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CromcruachHitBox.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\01.LandObject\02.Cromcruach\HitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerHpBar.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\HpBar\PlayerHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UIObserver.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MonsterHpBar.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\HpBar\MonsterHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DamageFont.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\DamageFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DamageScreen.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\DamageScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SoundMgr.cpp">
+      <Filter>소스 파일\98.SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkillIcon.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\SkillIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ManaHandEffect.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\RordOfMana\ManaHandEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ManaMagicEffect.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\RordOfMana\ManaMagicEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ManaHandEffect2.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\RordOfMana\ManaHandEffect2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ManaBoomEffect.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.Effect\RordOfMana\ManaBoomEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\EndUI.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\04.UI\EndUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

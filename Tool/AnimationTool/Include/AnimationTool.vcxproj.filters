@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01.MainFrm">
+      <UniqueIdentifier>{a7c2da93-955c-4779-b454-f63b656afdb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View">
+      <UniqueIdentifier>{6760b15f-8201-4e77-af4e-8c019cd9f2df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog">
+      <UniqueIdentifier>{94c7b496-e8f0-4a87-89b0-f32c0c69d8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{a1fc8cb1-c383-44b5-a4ed-6a77bc168d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene">
+      <UniqueIdentifier>{0da6366b-8566-4cee-8a51-3d0b07cb1ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00.SceneTool">
+      <UniqueIdentifier>{4fb4dd57-95f7-4c57-996c-d86768ad3873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00.SceneTool\00.GameObject">
+      <UniqueIdentifier>{1cc9a525-06ae-4237-9e8b-ad81364216e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00.SceneTool\00.GameObject\00.Arisha">
+      <UniqueIdentifier>{de5adf35-f074-4484-b48b-1629ec51d92c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00.SceneTool\00.GameObject\99.Camera">
+      <UniqueIdentifier>{91189790-e26d-4938-a7e7-ee5baa0cbb93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00.SceneTool\00.GameObject\01.Cromcruach">
+      <UniqueIdentifier>{3a192e6e-ede5-4080-847c-1a25a285e703}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationToolDoc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationTool.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>01.MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationToolView.h">
+      <Filter>02.View</Filter>
+    </ClInclude>
+    <ClInclude Include="Myform.h">
+      <Filter>04.Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneTool.h">
+      <Filter>03.Scene\00.SceneTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\AnimationMainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\AniSceneSelector.h">
+      <Filter>03.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\AniArisha.h">
+      <Filter>03.Scene\00.SceneTool\00.GameObject\00.Arisha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\AniDynamicCamera.h">
+      <Filter>03.Scene\00.SceneTool\00.GameObject\99.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\AniCromcruach.h">
+      <Filter>03.Scene\00.SceneTool\00.GameObject\01.Cromcruach</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationToolDoc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationTool.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>01.MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationToolView.cpp">
+      <Filter>02.View</Filter>
+    </ClCompile>
+    <ClCompile Include="Myform.cpp">
+      <Filter>04.Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneTool.cpp">
+      <Filter>03.Scene\00.SceneTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AnimationMainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AniArisha.cpp">
+      <Filter>03.Scene\00.SceneTool\00.GameObject\00.Arisha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AniDynamicCamera.cpp">
+      <Filter>03.Scene\00.SceneTool\00.GameObject\99.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AniCromcruach.cpp">
+      <Filter>03.Scene\00.SceneTool\00.GameObject\01.Cromcruach</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AnimationTool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AnimationTool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AnimationToolDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\AnimationTool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

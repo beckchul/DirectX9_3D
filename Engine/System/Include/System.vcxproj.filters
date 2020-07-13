@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01.GraphicDev">
+      <UniqueIdentifier>{58b6527d-be2a-455a-980c-cd4f78a1a536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Time">
+      <UniqueIdentifier>{304dd05e-4985-4af5-88e3-7870ef20df7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Export">
+      <UniqueIdentifier>{4756c7c3-2aba-4654-8e51-eed7bbeda4ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Font">
+      <UniqueIdentifier>{40fa252e-ab65-4015-b248-af3f0216af7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Input">
+      <UniqueIdentifier>{917b1378-d77a-4c23-bbc8-b7e8c77cd5b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\GraphicDev.cpp">
+      <Filter>01.GraphicDev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TimeMgr.cpp">
+      <Filter>02.Time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Font.cpp">
+      <Filter>03.Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FontMgr.cpp">
+      <Filter>03.Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Input.cpp">
+      <Filter>04.Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\GraphicDev.h">
+      <Filter>01.GraphicDev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TimeMgr.h">
+      <Filter>02.Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Export\Export_System.h">
+      <Filter>99.Export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Font.h">
+      <Filter>03.Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FontMgr.h">
+      <Filter>03.Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Input.h">
+      <Filter>04.Input</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Export\Export_System.inl">
+      <Filter>99.Export</Filter>
+    </None>
+  </ItemGroup>
+</Project>
